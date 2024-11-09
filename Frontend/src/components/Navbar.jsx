@@ -6,7 +6,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
     <nav>
-      <div className='logo'>QUEEN's</div>
+      <div className='logo'>QUEEN's Evento</div>
       <div className={show ? "navLinks showmenu" : "navLinks"}>
         <div className='links'>
           <Link to='landing' spy={true} smooth={true} duration={500}>HOME</Link>
